@@ -1,0 +1,22 @@
+1. 学习资料：
+（1）菜鸟教程、黑马程序员等等编程网站上关于Skill技术和Skill管理和分发技术的教程
+（2）以下的Skill站点原型及这些站点中的skill资源（尤其前两个）
+	https://www.skillhub.cn/
+	https://skillhub.swaggin.cn/
+	https://www.skillhub.club/
+	https://skillhub.rigol.com/
+	https://skillhub.market/
+	https://iflytek.github.io/skillhub/
+	https://skillhub.cstcloud.cn/
+	https://www.skill-cn.com/
+（3）Github, Gitee等网站上的skill站点工程与skill的相关博客
+2. 依据以上资料以及相关的学习成果，完成如下目标：
+- 总目标：建立一个具有商用价值的企业级SkillHub
+- 功能模块大致规划：（请在接下来的[第0阶段]规划阶段中自行规划全部的软件生命周期，包括具体的模块以及详细设计与实现架构等等）
+	- 登录认证+注册
+	- Skill管理，包括Skill的增删改查
+		- skill的创建：想好skill创建过程的必要要素，应用的场景等等，类似于在线的skill编辑器
+		- 表格化的skill管理（或者视图层可以用格子窗，参考那些经典的SkillHub网站），类似DBMS的增删改查一样
+	- Skill分发，这里请你按照标准和规范有局限地发挥
+（0）[第0阶段]请帮我规划该如何构建工程全貌，如何实现整个工程的各个阶段以及名为NS-SkHub的站点，这一阶段只生成批量的文档，用于指引后面的任务阶段和设计里程碑
+（1）[第1阶段]请认真研读经过打磨后的设计文档，适当地参考市场上的优秀设计与我给出的那个SkillHub工程的成功与失败之处（尤其是失败之处，哪些不该做，哪些投入的资源权重小），着重以"Skill管理与分发的SkillHub站点实现"为主题，以"Skill的Agent+MCP接入测试与效能评估"、"Data-Skill-Knowledge库与关联关系dashboard"两个功能区为分支（主题功能至少3个功能区投入约70%以上，加上分支的两个不太重要的主题，投入约30%不到），基于软件工程过程方法、领域驱动设计方法、来自Skill独特的方法论+MCP技术+其他相关有助于管理SKILL等软件技术、软件声明全声明周期与软件工程管理方法，慎重地设计并实现名为NS-SkHub的镜像站。即第1阶段完成的工作是从需求到产品测试与交付的全周期过程，输出文档、代码以及相关的必要软件产品。【此外请注意：Agent的连接在MCP中是有成功先例的，只需要实现Deepseek-flash/v4-pro Agent+任意一种MCP接入+SKILL问答与任务实测+质量评估即可】【注意2：在全周期的设计与实现中，如有问题请迭代回查并不断更新0阶段达成一种良性的开发循环】
